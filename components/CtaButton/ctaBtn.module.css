@@ -1,0 +1,64 @@
+
+.brandSliderOuterCta{
+    background-color: #2B2A2A;
+    width: 100%;
+}
+
+.ctaWrapper{
+    padding: 35px 8.889px 26.667px 8.889px;
+}
+.ctaHead{
+    color: #FFF;
+    font-size: 28.444px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17.778px; /* 62.5% */
+}
+.ctaSubHead{
+    color: #FFF;
+    font-size: 14.222px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17.778px; /* 125% */
+}
+.ctaInp{
+    width:100%;
+    height: 44.444px;
+    padding: 8.889px;
+    color: #666;
+    font-size: 14.222px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.333px; /* 150% */
+    border: 0 !important;
+    border-radius: 0 !important;
+}
+.ctaInp:focus{
+    outline: unset;
+    box-shadow: unset !important;
+}
+.arrowImg{
+    width: 21.333px;
+    height: 21.333px;
+}
+.arrowImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.ctaInpWrapper{
+    position: relative;
+}
+.arrowImg{
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media (max-width : 991px) {
+    .ctaHead{
+        font-size: 25px;
+        line-height: 1.4;
+    }
+}

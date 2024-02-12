@@ -1,0 +1,40 @@
+.brandImg{
+    width: 100%;
+    height: 82.295px;
+    background: #DBDBDB;
+    border-radius: 8px;
+    border: 3px solid #bebebe;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brandImg:hover {
+    border-color: white;
+}
+
+.brandImg:hover::before {
+    display: none;
+}
+
+.brandImg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    backdrop-filter: contrast(0.75);
+}
+.brandImg img{
+    /* width: 100%; */
+    height: 70px;
+    object-fit: contain;
+}
+.brandSliderOuter{
+    background-color: #212121;
+    padding-bottom: 25px;
+    padding-top: 40px;
+}
