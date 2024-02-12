@@ -1,0 +1,22 @@
+.product-card {
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 10px;
+  }
+
+  .price-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .price-button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
