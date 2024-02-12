@@ -1,0 +1,224 @@
+.wishlistPageFluid{
+    background-color: #212121;
+}
+.wishListHeading{
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.sort{
+    color: #FFF;
+    /* paragraph text */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.sort .formSelect{
+    /* width: 102.477px; */
+    width: auto;
+    height: 31px;
+    background-color: transparent;
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    border: 2px solid #FFF !important;
+    line-height: 18px; /* 150% */
+    margin-left: 8px;
+    border-radius: 2px !important;
+}
+.formSelect:focus{
+    box-shadow: unset !important;
+}
+.view{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 8px;
+}
+.sortAfter{
+    position: relative;
+}
+.sortAfter::after {
+        content: "▼";
+        position: absolute;
+        top: 5px;
+        right: 12px;
+        bottom: 0;
+        font-size: 9px;
+        line-height: 22px;
+        padding: 0 0px;
+        background: #212121;
+        color: white;
+        pointer-events: none;
+        width: 10px;
+        height: 10px;
+}
+.viewImg {
+    height: 18px;
+    width: 18px;
+    cursor: pointer;
+}
+.viewImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    filter: brightness(0.6);
+}
+
+.viewActive img {
+    filter: none;
+}
+.wishlistCard{
+    background: #212121;
+    box-shadow: 0px 0px 25px 5px rgba(49, 49, 50, 0.50);
+    padding: 20px;
+    width: 100%;
+    height: auto;
+}
+.product{
+    max-width: 313.635px;
+    width: 100%;
+    aspect-ratio: 1.44;
+    text-align: center;
+}
+.product2 {
+    width: 100%;
+    aspect-ratio: 1.44;
+    text-align: center;
+}
+.product2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.product img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.productHeading{
+    color: #FFF;
+    font-size: 19.878px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.productCode{
+    color: #FFF;
+    font-size: 15.461px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+.productDes{
+    color: #9295AA;
+    font-size: 17.67px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.74; /* 175% */
+    margin-bottom: 30px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.cart{
+    width: 34.235px;
+    height: 34.235px;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.cart img{
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}
+.like{
+    width: 34.235px;
+    height: 34.235px;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.like img{
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}
+
+.like:hover,
+.cart:hover {
+    background-color: white;
+}
+
+.like:hover img,
+.cart:hover img {
+    filter: invert(1);
+}
+
+.emptyWishlistImg {
+    height: 170px;
+    object-fit: contain;
+}
+
+.emptyTxt {
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFF;
+    /* text-transform: capitalize; */
+}
+
+@media (min-width: 576px) {
+    .product {
+        width: 220px;
+        aspect-ratio: 2;
+    }
+}
+
+@media (min-width: 991px) {
+    .product {
+        width: 313px;
+    }
+}
+
+
+
+@media (max-width: 575px) {
+    .productDes{
+        font-size: 14px;
+        line-height: 1.5;
+        margin-bottom: 17px;
+    }
+    .productHeading{
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    .cart, .like {
+        height: 32px;
+        width: 32px;
+    }
+    .product {
+        aspect-ratio: 0.7;
+    }
+}

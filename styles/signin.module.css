@@ -1,0 +1,269 @@
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #1D1D1D;
+  overflow: hidden;
+  padding-block: 60px;
+}
+.card {
+  /* display: block;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgb(53 105 128 / 30%),
+    0 6px 20px 0 rgb(165 200 213 / 41%);
+  text-align: center;
+  max-width: 345px;
+  border-radius: 7px;
+  margin: 60px 0;
+  padding: 15px;
+  border: 1px solid var(--border_color);
+  position: relative;
+  overflow: hidden; */
+}
+.cardSubHeading{
+  color: #FFF;
+  font-size: 14.394px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.card::before {
+  /* content: "";
+  position: absolute;
+  width: 125px;
+  height: 125px;
+  background-color: var(--primary);
+  opacity: 0.3;
+  border-radius: 50%;
+  right: -50px;
+  top: -50px; */
+}
+
+.card::after {
+  /* content: "";
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background-color: var(--primary);
+  opacity: 0.3;
+  border-radius: 50%;
+  left: -150px;
+  bottom: -150px; */
+}
+
+.card > * {
+  z-index: 1;
+  position: relative;
+}
+
+.card h1 {
+color: #FFF;
+text-align: center;
+font-size: 28.788px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.card button {
+  /* border: none;
+  background-color: var(--primary);
+  color: var(--primary_contrast);
+  line-height: 40px;
+  border-radius: 5px;
+  margin-bottom: 14px;
+  font-weight: 600;
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  transition: background-color 0.4s;
+  text-transform: uppercase; */
+  box-shadow: unset;
+  border: 0;
+}
+.hide{
+  color: #FFF;
+  text-align: right;
+  font-size: 14.193px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+.hide img{
+  width: 21.591px;
+  height: 21.591px;
+}
+.divider{
+  background: rgba(102, 102, 102, 0.25);
+  height: 1.799px;
+  width: 210px;
+}
+.reset_link {
+  color: #FFF;
+  text-align: right;
+  font-size: 14.394px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  margin-bottom: 21px;
+}
+.reset_link:hover{
+  opacity: 0.9 !important;
+  color: white !important;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 7px;
+}
+
+.hr {
+  border-bottom: 1px solid var(--border_color);
+  display: block;
+  margin-bottom: 25px;
+}
+.signBtn{
+  display: flex;
+  width: 475px;
+  padding: 9.594px 0px 10.923px 0px;
+  justify-content: center;
+  align-items: center;
+  color: #000 !important;
+  text-align: center;
+  font-size: 14.615px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  opacity: 0.25;
+  background: #F6F6F6 !important;
+  border-radius: 26.573px;
+  border: 0.747px solid #F6F6F6;
+  margin-top: 20px;
+  transition: 0.3s linear;
+}
+.signBtn:hover{
+  opacity: 0.6;
+}
+.form > * {
+  display: block;
+  width: 475px;
+  margin-bottom: 12px;
+}
+.form label {
+  text-align: left;color: #FFF;
+  font-size: 14.394px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 5px;
+}
+
+.form input {
+  height: 50.379px;
+  border-radius: 10.795px;
+  width: 100%;
+  border: 0.9px solid #FFF !important;
+  background-color: transparent;
+  color: white;
+}
+.form input::placeholder{
+  color: white !important;
+}
+.loginBtn{
+  background-color: transparent !important;
+  width: 100%;
+}
+.loginBtn img{
+  width: 475px;
+  height: 64.773px;
+  object-fit: contain;
+}
+.form input:focus{
+  box-shadow: unset !important;
+  outline: unset !important;
+  background-color: transparent;
+  color: white;
+}
+.form button:hover {
+  /* background-color: var(--primary_light);
+  color: var(--primary_light_contrast); */
+}
+
+.facebook {
+  background-color: #5890ff !important;
+  color: #fff !important;
+}
+
+.google {
+  background-color: #4285f4 !important;
+  color: #fff !important;
+}
+.hidee{
+  color: #EB4335;
+  cursor: pointer;
+}
+.reset_linkk{
+  color: #F6F6F6;
+font-size: 9.301px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.3px;
+}
+.btntext{
+  color: #FFF;
+font-size: 10.629px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 26px;
+}
+.txt{
+  color: #F6F6F6;
+font-size: 15.944px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 38px;
+}
+.signinBtn{
+  background-color: transparent;
+  padding-left: 0;
+}
+.signinBtn img{
+  width: 150.804px;
+height: 42.517px;
+}
+@media (max-width: 575px) {
+  .loginBtn{
+    width: 100%;
+  }
+  .form > * {
+    display: block;
+    width: 300px;
+    margin-bottom: 12px;
+  }
+  .signBtn{
+    width: 300px;
+  }
+  .loginBtn img{
+    width: 300px;
+    object-fit: contain;
+    /* height: 50px; */
+  }
+  .divider{
+    width: 140px;
+  }
+  .signinBtn img{
+    width: 130px;
+  }
+}
